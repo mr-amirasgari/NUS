@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <title>اسلاید کنفرانس TCGA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/theme/white.min.css">
+  <style>
+    /* فونت‌های فارسی */
+    @font-face {
+      font-family: 'B Titr';
+      src: url('https://cdn.jsdelivr.net/gh/font-store/font-IranSans@main/Fonts/BTitr.woff2') format('woff2');
+      font-weight: bold;
+      font-style: normal;
+    }
+    
+    @font-face {
+      font-family: 'B Nazanin';
+      src: url('https://cdn.jsdelivr.net/gh/font-store/font-IranSans@main/Fonts/BNazanin.woff2') format('woff2');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    /* RTL Core */
+    html, body, .reveal, .reveal .slides, .reveal .slides section {
+      direction: rtl !important;
+      text-align: right !important;
+    }
+
+    :root{
+      --r-background-color:#FEFEFE;
+      --r-heading-color:#7A0019;
+      --r-heading-font:"B Titr", "B Titrt", "Arial Black", sans-serif;
+      --r-main-font:"B Nazanin", "BNazanin", "Times New Roman", serif;
+      --r-main-color:#2D2D2D;
+      --r-heading-line-height:1.3;
+      --r-main-line-height:1.6;
+    }
+    
+    .reveal .slides section{
+      font-size:1.2em;
+      font-weight:normal;
+      padding:20px 0;
+      font-family: var(--r-main-font);
+    }
+    
+    .reveal h1, .reveal h2, .reveal h3{
+      color:var(--r-heading-color);
+      font-weight:bold;
+      margin-bottom:0.7em;
+      font-family: var(--r-heading-font);
+      line-height: 1.2;
+    }
+    
+    .reveal h1{font-size:2.4em;}
+    .reveal h2{font-size:1.9em;}
+    .reveal h3{font-size:1.5em;}
+    
+    /* لیست‌های راست‌چین */
+    .reveal ul{
+      list-style: none !important;
+      padding: 0 1em 0 0 !important;
+      margin: 1em 0 0 0 !important;
+    }
+    
+    .reveal li{
+      position: relative;
+      margin: 0.7em 0 !important;
+      padding: 0 2em 0 0 !important;
+      line-height: 1.5;
+      font-family: var(--r-main-font);
+    }
+    
+    .reveal li::before{
+      content: "▪" !important;
+      color: #8B0000;
+      font-weight: bold;
+      font-size: 1.8em;
+      position: absolute;
+      right: 0;
+      top: -0.3em;
+    }
+    
+    .reveal li > ul{
+      margin-top: 0.5em !important;
+      margin-right: 1em !important;
+    }
+    
+    .reveal li > ul > li::before{
+      content: "–" !important;
+      color: #A52A2A;
+      font-size: 1.4em;
+    }
+    
+    .bg-dark{
+      background: #7A0019 !important;
+      color: #FFEBEE !important;
+      text-align: center !important;
+    }
+    
+    .reveal a{
+      color: #8B0000;
+      text-decoration: none;
+      border-bottom: 1px dotted;
+    }
+  </style>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+      <section>
+        <h1>سرطان را از درون ژن می‌خوانیم</h1>
+        <h3>معرفی پروژه‌ی TCGA</h3>
+        <p style="font-size:0.8em; margin-top:2em;">The Cancer Genome Atlas</p>
+      </section>
+
+      <section>
+        <h2>چرا TCGA به‌وجود آمد؟</h2>
+        <ul>
+          <li>سرطان‌ها حتی در یک عضو هم بسیار متفاوت‌اند</li>
+          <li>برای درمان دقیق باید «نقشه‌ی ژنومی» تومور را داشته باشیم</li>
+          <li>هدف TCGA: ساخت اطلس رایگان از تغییرات DNA، RNA و پروتئین در ۳۳ نوع سرطان اصلی</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>نمونه‌هایی که جمع‌آوری شد</h2>
+        <ul>
+          <li>بیش از ۱۱ هزار بیمار در ۶ مرکز بزرگ آمریکا</li>
+          <li>برای هر بیمار دو نمونه:
+            <ul>
+              <li>توده‌ی اولیه (Primary Tumor)</li>
+              <li>بافت سالم مجاور (Matched Normal)</li>
+            </ul>
+          </li>
+          <li>نمونه‌ها فوراً فریز شد تا مولکول‌ها خراب نشود</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>لایه‌های داده‌ای TCGA</h2>
+        <ul>
+          <li>توالی‌یابی کل اگزوم (WES) و کل ژنوم (WGS)</li>
+          <li>RNA-seq: میزان بیان ژن‌ها، miRNA، lncRNA</li>
+          <li>آرایه‌ی متیلاسیون DNA</li>
+          <li>تغییرات تعداد کپی (Copy-Number Variation)</li>
+          <li>پروتئومیکس: شناسایی پروتئین‌های غیرعادی</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>از TCGA تا GDC</h2>
+        <ul>
+          <li>از سال ۲۰۱۶ داده‌های خام به «درگاه GDC» منتقل شد</li>
+          <li>TCGA نام پروژه است؛ GDC سکوی دسترسی و ذخیره‌سازی</li>
+          <li>دو سطح دسترسی:
+            <ul>
+              <li>Open-Access: بدون رمز، برای همه</li>
+              <li>Controlled-Access: نیاز به مجوز اخلاقی</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>۳۳ تومور اصلی</h2>
+        <p style="line-height:1.8;">
+          پرتکرارترین‌ها: سرطان پستان، ریه، روده‌ی بزرگ، پروستات، تیروئید
+          <br>تومورهای سخت: گلیوبلاستوم، ملانوم، تومورهای استخوان و عضله
+          <br>تومورهای نادر: کُلانژیوکارسینوم، تیموما، آدنویید کیستیک
+        </p>
+      </section>
+
+      <section>
+        <h2>چطور داده بگیریم؟</h2>
+        <ul>
+          <li>GDC Data Portal: جست‌وجوی پیشرفته و دانلود دسته‌ای</li>
+          <li>cBioPortal: تحلیل سریع جهش و مسیرهای سیگنالینگ</li>
+          <li>UCSC Xena: نمایش گرافیکی بیان ژن و بقا</li>
+          <li>TCGA Workflow: توالی‌خوانی یک‌پارچه با استاندارد GDC</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>کاربرد بالینی امروز</h2>
+        <ul>
+          <li>تست‌های NGS در آزمایشگاه‌های سرطان‌شناسی بر پایه‌ی یافته‌های TCGA طراحی شد</li>
+          <li>بیومارکرهای پیش‌بینی پاسخ به ایمنوتراپی (مثلاً TMB، MSI)</li>
+          <li>کارآزمایی‌های چتری (Umbrella) و سبد (Basket) با تکیه بر پروفایل ژنومی</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>محدودیت‌ها و چالش‌ها</h2>
+        <ul>
+          <li>جمعیت‌نگاری: ۷۷ % سفیدپوست → تعمیم به همه‌ی قومیت‌ها مشکل است</li>
+          <li>دنبال‌کردن بیمار (Follow-up) در بعضی سرطان‌ها کوتاه بود</li>
+          <li>حجم عظیم داده: نیاز به بیوانفورماتیک و زیرساخت محاسباتی</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>TCGA و ایران</h2>
+        <ul>
+          <li>داده‌های Open-Access بدون فیلتر در دسترس‌اند</li>
+          <li>گروه‌های بیوانفورماتیک ایران در حال ترکیب TCGA با نمونه‌های بومی‌اند</li>
+          <li>نتیجه: یافتن جهش‌های خاص جمعیت ایرانی و طراحی پنل‌های اختصاصی</li>
+        </ul>
+      </section>
+
+      <section class="bg-dark">
+        <h1>سؤال؟</h1>
+        <h3 style="margin-top:1.5em;">با استفاده از داده‌های TCGA شروع کنید</h3>
+        <p style="margin-top:2em;"><a href="https://portal.gdc.cancer.gov" target="_blank">portal.gdc.cancer.gov</a></p>
+      </section>
+
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true,
+      transition: 'slide',
+      backgroundTransition: 'fade',
+      width: 1200,
+      height: 700,
+      margin: 0.1,
+      center: true,
+      rtl: true
+    });
+  </script>
+</body>
+</html>
