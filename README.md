@@ -1,44 +1,50 @@
 <div align="center">
 
-🧠 NUS
-Knowledge, Research & Learning Hub
+# 🧠 NUS
+
+### Knowledge, Research & Learning Hub
 
 A centralized collection of my academic studies, programming notes, research materials, technical tutorials, and practical experiments.
 
 <br>
 
-
-
-
-
-
+![Repository Type](https://img.shields.io/badge/Type-Knowledge%20Base-2563EB?style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/mr-amirasgari/NUS?style=for-the-badge)
+![Repository Size](https://img.shields.io/github/repo-size/mr-amirasgari/NUS?style=for-the-badge)
+![GitHub Stars](https://img.shields.io/github/stars/mr-amirasgari/NUS?style=for-the-badge)
 
 <br>
 
-Python • R • SQL • Machine Learning • Artificial Intelligence • Data Science • Bioinformatics
+**Python • R • SQL • Machine Learning • Artificial Intelligence • Data Science • Bioinformatics**
 
 </div>
 
-📖 About
+---
 
-NUS is my personal academic and technical knowledge base.
+## 📖 About
+
+**NUS** is my personal academic and technical knowledge base.
 
 This repository combines materials that were previously stored across several separate repositories. Its purpose is to create a single, organized, searchable, and continuously evolving archive of my learning and research journey.
 
 The repository includes:
 
-Programming tutorials and exercises
-Python, R, and SQL learning materials
-Machine-learning course content
-Academic papers and article summaries
-Research presentations
-Bioinformatics and TCGA-related materials
-Data-science notes and experiments
-Technical reference documents
+- Programming tutorials and exercises
+- Python, R, and SQL learning materials
+- Machine-learning course content
+- Academic papers and article summaries
+- Research presentations
+- Bioinformatics and TCGA-related materials
+- Data-science notes and experiments
+- Technical reference documents
 
-NUS is not a single software application. It is a structured collection of educational, academic, and technical resources.
+> NUS is not a single software application. It is a structured collection of educational, academic, and technical resources.
 
-🗂️ Repository Structure
+---
+
+## 🗂️ Repository Structure
+
+```text
 NUS/
 │
 ├── Article/
@@ -64,112 +70,125 @@ NUS/
 │   └── Technical and Educational Documents/
 │
 └── README.md
+```
 
 The repository structure may change as new subjects, courses, articles, and experiments are added.
 
-🚀 Learning Paths
-🐍 Python
+---
 
-The Learning/Python directory contains Python learning materials, exercises, and practical examples.
+## 🚀 Learning Paths
 
-Main topics include:
+### 🐍 Python
 
-Python fundamentals
-Variables and data types
-Conditional statements
-Loops
-Functions
-Lists, tuples, dictionaries, and sets
-File handling
-Object-oriented programming
-Modules and packages
-Error handling
-Practical exercises
-Mini-projects
-
-Explore Python Materials
-
-📊 R Programming
-
-The Learning/R directory contains materials related to statistical programming and data analysis using R.
+The `Learning/Python` directory contains Python learning materials, exercises, and practical examples.
 
 Main topics include:
 
-R fundamentals
-Vectors and data structures
-Data frames
-Data manipulation
-Statistical analysis
-Data visualization
-Working with datasets
-Research-oriented data analysis
-Bioinformatics applications
+- Python fundamentals
+- Variables and data types
+- Conditional statements
+- Loops
+- Functions
+- Lists, tuples, dictionaries, and sets
+- File handling
+- Object-oriented programming
+- Modules and packages
+- Error handling
+- Practical exercises
+- Mini-projects
 
-Explore R Materials
+[Explore Python Materials](./Learning/Python)
 
-🗄️ SQL and Databases
+---
 
-The Learning/SQL directory contains SQL and database learning materials.
+### 📊 R Programming
 
-Main topics include:
-
-Relational database concepts
-SQLite
-Creating databases and tables
-Inserting and updating data
-Deleting records
-Filtering and sorting
-Aggregate functions
-Table relationships
-SQL joins
-Subqueries
-Database exercises
-
-Explore SQL Materials
-
-🤖 Machine Learning
-
-The Learning/Machine-Learning directory contains educational materials, exercises, notebooks, and examples related to machine learning.
+The `Learning/R` directory contains materials related to statistical programming and data analysis using R.
 
 Main topics include:
 
-Introduction to machine learning
-Data preprocessing
-Feature engineering
-Supervised learning
-Unsupervised learning
-Classification
-Regression
-Clustering
-Model evaluation
-Overfitting and underfitting
-Neural networks
-Practical notebooks
-Machine-learning exercises
+- R fundamentals
+- Vectors and data structures
+- Data frames
+- Data manipulation
+- Statistical analysis
+- Data visualization
+- Working with datasets
+- Research-oriented data analysis
+- Bioinformatics applications
 
-Explore Machine-Learning Materials
+[Explore R Materials](./Learning/R)
 
-🔬 Articles and Academic Research
+---
 
-The Article directory contains academic papers, research notes, article summaries, translations, and presentations.
+### 🗄️ SQL and Databases
+
+The `Learning/SQL` directory contains SQL and database learning materials.
+
+Main topics include:
+
+- Relational database concepts
+- SQLite
+- Creating databases and tables
+- Inserting and updating data
+- Deleting records
+- Filtering and sorting
+- Aggregate functions
+- Table relationships
+- SQL joins
+- Subqueries
+- Database exercises
+
+[Explore SQL Materials](./Learning/SQL)
+
+---
+
+### 🤖 Machine Learning
+
+The `Learning/Machine-Learning` directory contains educational materials, exercises, notebooks, and examples related to machine learning.
+
+Main topics include:
+
+- Introduction to machine learning
+- Data preprocessing
+- Feature engineering
+- Supervised learning
+- Unsupervised learning
+- Classification
+- Regression
+- Clustering
+- Model evaluation
+- Overfitting and underfitting
+- Neural networks
+- Practical notebooks
+- Machine-learning exercises
+
+[Explore Machine-Learning Materials](./Learning/Machine-Learning)
+
+---
+
+## 🔬 Articles and Academic Research
+
+The `Article` directory contains academic papers, research notes, article summaries, translations, and presentations.
 
 Research topics may include:
 
-Artificial intelligence in healthcare
-Machine learning in medicine
-Deep learning
-Cancer diagnosis
-Biomedical data analysis
-Genomic data analysis
-Data science
-Bioinformatics
-TCGA
-TCGAbiolinks
-Systematic reviews
-Research methodology
+- Artificial intelligence in healthcare
+- Machine learning in medicine
+- Deep learning
+- Cancer diagnosis
+- Biomedical data analysis
+- Genomic data analysis
+- Data science
+- Bioinformatics
+- TCGA
+- TCGAbiolinks
+- Systematic reviews
+- Research methodology
 
 A typical article directory may contain:
 
+```text
 Article Title/
 ├── Original Article
 ├── Summary
@@ -177,173 +196,203 @@ Article Title/
 ├── Presentation
 ├── Notes
 └── Supplementary Materials
+```
 
-Explore Academic Articles
+[Explore Academic Articles](./Article)
 
-🧬 TCGA and Bioinformatics
+---
 
-The tcga directory contains materials related to The Cancer Genome Atlas, genomic data analysis, and bioinformatics research.
+## 🧬 TCGA and Bioinformatics
+
+The `tcga` directory contains materials related to **The Cancer Genome Atlas**, genomic data analysis, and bioinformatics research.
 
 This section may include:
 
-TCGA datasets
-TCGAbiolinks resources
-Cancer-related genomic studies
-Generated HTML reports
-Research notes
-Data-analysis outputs
-Biomedical machine-learning studies
-Bioinformatics presentations
+- TCGA datasets
+- TCGAbiolinks resources
+- Cancer-related genomic studies
+- Generated HTML reports
+- Research notes
+- Data-analysis outputs
+- Biomedical machine-learning studies
+- Bioinformatics presentations
 
-Explore TCGA Resources
+[Explore TCGA Resources](./tcga)
 
-🛠️ Technologies and Tools
-Category	Technologies and Tools
-Programming	Python, R, SQL
-Data Analysis	Pandas, NumPy, R
-Machine Learning	Scikit-learn, Classification, Regression, Clustering
-Databases	SQLite, Relational Databases
-Data Visualization	Matplotlib, Power BI, R Visualization
-Bioinformatics	TCGA, TCGAbiolinks, Genomic Data
-Research	Academic Papers, Summaries, Translations
-Version Control	Git, GitHub
-Documentation	Markdown, PDF, PowerPoint, HTML
-✨ Repository Highlights
-Centralized academic and technical archive
-Organized programming learning paths
-Python, R, SQL, and machine-learning resources
-Research papers and article summaries
-Bioinformatics and healthcare studies
-TCGA-related research materials
-Practical programming exercises
-Academic presentations
-Technical reference documents
-Continuous documentation of my learning journey
-🔍 How to Use
+---
+
+## 🛠️ Technologies and Tools
+
+| Category | Technologies and Tools |
+|---|---|
+| Programming | Python, R, SQL |
+| Data Analysis | Pandas, NumPy, R |
+| Machine Learning | Scikit-learn, Classification, Regression, Clustering |
+| Databases | SQLite, Relational Databases |
+| Data Visualization | Matplotlib, Power BI, R Visualization |
+| Bioinformatics | TCGA, TCGAbiolinks, Genomic Data |
+| Research | Academic Papers, Summaries, Translations |
+| Version Control | Git, GitHub |
+| Documentation | Markdown, PDF, PowerPoint, HTML |
+
+---
+
+## ✨ Repository Highlights
+
+- Centralized academic and technical archive
+- Organized programming learning paths
+- Python, R, SQL, and machine-learning resources
+- Research papers and article summaries
+- Bioinformatics and healthcare studies
+- TCGA-related research materials
+- Practical programming exercises
+- Academic presentations
+- Technical reference documents
+- Continuous documentation of my learning journey
+
+---
+
+## 🔍 How to Use
 
 Clone the repository:
 
+```bash
 git clone https://github.com/mr-amirasgari/NUS.git
+```
 
 Enter the repository:
 
+```bash
 cd NUS
+```
 
 Update your local version:
 
+```bash
 git pull origin main
+```
 
 Navigate to a learning path:
 
+```bash
 cd Learning/Python
+```
+
+```bash
 cd Learning/R
+```
+
+```bash
 cd Learning/SQL
+```
+
+```bash
 cd Learning/Machine-Learning
-🧭 Repository Philosophy
-Learn by Practicing
+```
+
+---
+
+## 🧭 Repository Philosophy
+
+### Learn by Practicing
 
 Learning materials should include practical examples, exercises, code, or real-world applications whenever possible.
 
-Keep Knowledge Organized
+### Keep Knowledge Organized
 
 Articles, code, presentations, reports, and notes should be stored in clearly named directories.
 
-Preserve the Learning Journey
+### Preserve the Learning Journey
 
 Older exercises and materials may remain available to demonstrate progress and development over time.
 
-Connect Research and Practice
+### Connect Research and Practice
 
 Academic concepts should be connected to programming, data analysis, and practical implementation.
 
-Continuously Improve
+### Continuously Improve
 
 The structure, documentation, and content of this repository will continue to evolve.
 
-🗺️ Roadmap
+---
 
-Create a centralized academic knowledge base
+## 🗺️ Roadmap
 
-Add academic papers and research materials
+- [x] Create a centralized academic knowledge base
+- [x] Add academic papers and research materials
+- [x] Add TCGA and bioinformatics resources
+- [x] Merge Python learning materials
+- [x] Merge R learning materials
+- [x] Merge SQL and SQLite tutorials
+- [x] Merge machine-learning materials
+- [ ] Add a dedicated README to every main directory
+- [ ] Improve file and folder naming conventions
+- [ ] Add more practical notebooks
+- [ ] Add datasets for exercises
+- [ ] Add topic-based navigation
+- [ ] Add project-based learning exercises
+- [ ] Add research metadata and references
+- [ ] Organize presentations and technical documents
 
-Add TCGA and bioinformatics resources
+---
 
-Merge Python learning materials
-
-Merge R learning materials
-
-Merge SQL and SQLite tutorials
-
-Merge machine-learning materials
-
-Add a dedicated README to every main directory
-
-Improve file and folder naming conventions
-
-Add more practical notebooks
-
-Add datasets for exercises
-
-Add topic-based navigation
-
-Add project-based learning exercises
-
-Add research metadata and references
-
-Organize presentations and technical documents
-
-⚠️ Academic and Copyright Notice
+## ⚠️ Academic and Copyright Notice
 
 Some directories may contain academic articles, presentations, datasets, course materials, or educational resources created by third parties.
 
 These materials are stored for:
 
-Personal study
-Academic research
-Educational reference
-Documentation of the learning process
+- Personal study
+- Academic research
+- Educational reference
+- Documentation of the learning process
 
 Copyright and ownership of third-party materials remain with their original authors, publishers, universities, institutions, or repositories.
 
 Please cite the original sources and respect their licenses when using any third-party materials.
 
-🤝 Contributions
+---
+
+## 🤝 Contributions
 
 This repository primarily represents my personal academic and technical learning journey.
 
 Suggestions for improving the following areas are welcome:
 
-Repository organization
-Documentation
-Code quality
-Educational exercises
-Research references
-Learning resources
+- Repository organization
+- Documentation
+- Code quality
+- Educational exercises
+- Research references
+- Learning resources
 
 You can submit suggestions through GitHub Issues or Pull Requests.
 
-👨‍💻 Author
+---
+
+## 👨‍💻 Author
 
 <div align="center">
 
-Amir Mohammad Asgari
+### Amir Mohammad Asgari
 
 Data Science, Artificial Intelligence, Software Development, and Bioinformatics Enthusiast
 
 <br>
 
-
-
+[![GitHub](https://img.shields.io/badge/GitHub-mr--amirasgari-181717?style=for-the-badge&logo=github)](https://github.com/mr-amirasgari)
 
 <br>
 
-Learning, researching, building, and documenting the journey.
+**Learning, researching, building, and documenting the journey.**
 
 </div>
 
+---
+
 <div align="center">
 
-⭐ Support
+### ⭐ Support
 
 If you find the repository useful, consider giving it a star.
 
