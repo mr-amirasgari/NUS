@@ -398,6 +398,6 @@ If you find the repository useful, consider giving it a star.
 
 <br>
 
-Made with curiosity, consistency, and a passion for learning.
+Made with curiosity, consistency, and a passion for learning
 
 </div>
