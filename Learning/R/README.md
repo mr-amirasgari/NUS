@@ -1,141 +1,63 @@
-آموزش مقدماتی R
+# R Programming Learning Notes
 
-این ریپو شامل یک آموزش ساده و گام‌به‌گام برای یادگیری مفاهیم پایه زبان برنامه‌نویسی R است.
-کدهای موجود در فایل‌ها شامل مهم‌ترین مفاهیم برای کاربران تازه‌کار R هستند و برای دانشجویان، افراد علاقه‌مند به تحلیل داده، و کسانی که می‌خواهند مبانی R را سریع یاد بگیرند، مناسب است.
+A collection of introductory R lessons, datasets, and bioinformatics-related learning materials.
 
+## Contents
 
----
+| File | Description |
+|---|---|
+| `lesson1.Rmd` | Basic R syntax, arithmetic operations, variables, and data types |
+| `lesson2.Rmd` | Vectors, factors, lists, matrices, and data frames |
+| `lesson3.Rmd` | Additional R exercises and data-analysis practice |
+| `install.R` | Package-installation commands used in the lessons |
+| `FuelConsumption.csv` | Sample dataset for data-analysis exercises |
+| `Microarray.txt` | Example microarray dataset |
+| `RNA-seq.txt` | Example RNA sequencing dataset |
+| `SAGE.txt` | Example SAGE dataset |
+| `runtime.txt` | Supporting text data used in the exercises |
 
-🔢 ۱. عملگرهای ریاضی
+## Topics
 
-آموزش انجام عملیات پایه ریاضی در R، شامل:
+The materials cover introductory topics such as:
 
-جمع، تفریق، ضرب، تقسیم
+- Arithmetic operations
+- Variables and assignment
+- Numeric, character, and logical data
+- Vectors
+- Factors
+- Lists
+- Matrices
+- Data frames
+- Data inspection
+- Basic statistical analysis
+- Working with datasets
+- Introductory bioinformatics data
 
-توان
+## Requirements
 
-ریشه دوم
+- R
+- RStudio or another R-compatible environment
 
-لگاریتم (پایه ۲ و ۱۰)
+Install the packages required by the lessons:
 
-قدر مطلق
+```r
+source("install.R")
+```
 
-توابع گرد کردن (floor() و ceiling())
+## Run
 
+1. Open RStudio.
+2. Open one of the `.Rmd` lesson files.
+3. Run individual code chunks or select **Knit** to generate the complete report.
 
-این مثال‌ها کمک می‌کنند تا نحوه محاسبات عددی در R را درک کنید.
+## Learning Order
 
+A suggested order is:
 
----
+1. `lesson1.Rmd`
+2. `lesson2.Rmd`
+3. `lesson3.Rmd`
 
-🏷️ ۲. تعریف متغیرها
+## Repository
 
-مثال‌ها شامل:
-
-اختصاص مقدار با <- و =
-
-متغیرهای عددی و متنی
-
-بررسی نوع متغیر با class()
-
-انجام عملیات ریاضی روی متغیرها
-
-مقایسه منطقی (!=)
-
-
-این بخش مقدمه‌ای برای یادگیری ذخیره و مدیریت داده در R است.
-
-
----
-
-🧩 ۳. ساختارهای داده
-
-در این بخش، مهم‌ترین ساختارهای داده در R آموزش داده شده‌اند:
-
-✔ بردارها (Vectors)
-
-ایجاد بردار
-
-دسترسی به عناصر
-
-حذف و اضافه کردن عناصر
-
-بررسی طول و نوع بردار
-
-
-✔ فاکتورها (Factors)
-
-ایجاد متغیرهای دسته‌ای
-
-تغییر نام سطوح فاکتور
-
-
-✔ لیست‌ها (Lists)
-
-ذخیره چند نوع داده
-
-بررسی عضویت در لیست
-
-استفاده از rep() و seq()
-
-
-✔ ماتریس‌ها (Matrices)
-
-ایجاد ماتریس
-
-دسترسی به سطر، ستون و عنصر
-
-افزودن و حذف سطر/ستون
-
-بررسی ابعاد ماتریس
-
-
-✔ داده‌فریم‌ها (Data Frames)
-
-ایجاد داده‌فریم ساده
-
-مشاهده داده با View()
-
-قرار دادن داده‌فریم‌ها در لیست
-
-
-
----
-
-🎯 هدف
-
-این آموزش مناسب است برای:
-
-افراد تازه‌کار در R
-
-یادگیرندگان علوم داده
-
-دانشجویان درس‌های آماری
-
-کسانی که نیاز به مرجع سریع برای مفاهیم پایه R دارند
-
-
-
----
-
-▶️ نحوه اجرا
-
-کدها را می‌توان در محیط‌های زیر اجرا کرد:
-
-RStudio
-
-RStudio Cloud
-
-محیط‌های محلی R
-
-یا آنلاین با Binder (در آینده اضافه خواهد شد)
-
-https://mybinder.org/v2/gh/mr-amirasgari/R_Learn/HEAD?urlpath=lab/tree/
-
-
-
-🤝 مشارکت
-
-پیشنهادات، بهبودها و Pull Request‌ها خوش‌آمد گفته می‌شوند.
-
-
+These materials are part of the main [NUS Knowledge Hub](../../README.md).
