@@ -1,48 +1,51 @@
-# SQLite Database in Python
+# SQL and SQLite Learning Notes
 
-این پروژه شامل یک نوت‌بوک آموزشی به نام `main.ipynb` است که نحوه‌ی ایجاد و کار با **پایگاه داده SQLite** را در زبان **Python** نشان می‌دهد.
+A practical Jupyter Notebook for learning how to work with SQLite databases in Python.
 
----
+## Notebook
 
-## 📘 محتوا
-در این نوت‌بوک یاد می‌گیرید:
-- ایجاد اتصال (Connection) به SQLite
-- ساخت دیتابیس در دیسک یا در حافظه (RAM)
-- ایجاد جدول‌ها و درج داده‌ها
-- اجرای Queryها
-- بستن اتصال و مدیریت خطاها
+| File | Description |
+|---|---|
+| `main.ipynb` | Creating, querying, and managing an SQLite database with Python |
 
----
+## Topics
 
-## ⚙️ نحوه استفاده
-1. اطمینان حاصل کنید Python 3 و Jupyter Notebook نصب شده‌اند.
-2. نوت‌بوک را باز کنید:
-   ```bash
-   jupyter notebook main.ipynb
-3.سلول‌ها را به ترتیب اجرا کنید و نتایج را ببینید.
+The notebook covers:
 
-📦 وابستگی‌ها
+- Connecting Python to SQLite
+- Creating a database file
+- Using an in-memory database
+- Creating tables
+- Inserting records
+- Running SQL queries
+- Updating and deleting data
+- Fetching query results
+- Handling database errors
+- Closing database connections
 
-پکیج‌هایی که نیاز دارید:
+## Requirements
 
-pip install sqlite3
+- Python 3
+- Jupyter Notebook
 
+The `sqlite3` module is included with the Python standard library and normally does not require separate installation.
 
-(ماژول sqlite3 معمولاً به‌صورت پیش‌فرض با Python نصب است.)
+Install Jupyter Notebook if needed:
 
-📚 درباره پروژه
+```bash
+pip install notebook
+```
 
-این نوت‌بوک برای تمرین کار با پایگاه داده‌های سبک در پایتون طراحی شده و می‌تواند پایه‌ای برای پروژه‌های بزرگ‌تر باشد.
+## Run
 
-🧑‍💻 نویسنده
+Open the notebook with:
 
-ساخته‌شده توسط امیرمحمدعسگری
+```bash
+jupyter notebook main.ipynb
+```
 
-سال: 2025
+Run the cells in order to follow the examples.
 
-🌟 پیشنهاد
+## Repository
 
-اگر این پروژه برات مفید بود، ستاره ⭐️ بده یا فورک کن تا در آینده با نسخه‌های پیشرفته‌تر (مثل PostgreSQL و MySQL) ادامه پیدا کنه.
-
-
-# sqlite-tutorial
+These materials are part of the main [NUS Knowledge Hub](../../README.md).
