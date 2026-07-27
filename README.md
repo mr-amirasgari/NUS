@@ -424,3 +424,4 @@ If you find this repository useful, consider giving it a star.
 Made with curiosity, consistency, and a passion for learning.
 
 </div>
+.
