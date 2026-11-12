@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧠  NUS
+# 🧠 NUS
 
 ### Knowledge, Research & Learning Hub
 
